@@ -1,0 +1,3 @@
+export const apikey =
+   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im93anpyYmRtZWZoYXhlendqcnB6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc4MTQzNTQsImV4cCI6MjA4MzM5MDM1NH0.x7p83cnZFYUbX8MHJjRJ2XEyGo7sGmZ19uCdYrm9JNg';
+export const max_rows_per_page = 10;
