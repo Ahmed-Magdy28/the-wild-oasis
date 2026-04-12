@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router';
 import LoginForm from '../features/authentication/LoginForm';
 import Logo from '../ui/Logo';
 import Heading from '../ui/Heading';
@@ -21,7 +22,7 @@ function Login() {
          <Heading as="h4">Log in to your Account</Heading>
          <LoginForm />
          <p>
-            Don&apos;t have an account? <a href="/signup">Sign up</a>
+            Don&apos;t have an account? <Link to="/signup">Sign up</Link>
          </p>
       </LoginLayout>
    );
